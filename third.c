@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-void main (void){
+int main(void){
     int a, b, c;
     printf("Enter the first value: ");
     scanf("%d", &a);
     printf("Enter the second value: ");
     scanf("%d", &b);
+    printf("Enter the third value: ");
+    scanf("%d", &c);
 
-    c = a + b;
-    printf("\n%d + %d = %d\n", a, b, c);
+    printf("\n%d + %d + %d = %d\n", a, b, c, (a+b+c));
+    return 0;
 }

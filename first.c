@@ -5,5 +5,5 @@ void main(void){
     a = 8;
     b = 7;
     c = a + b;
-    printf("%d + %d = %d", a, b, c);
+    printf("\n%d + %d = %d\n", a, b, c);
 }
