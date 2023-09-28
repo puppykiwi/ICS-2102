@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    char* name;
-    printf("Enter your name: ");
-    scanf("%s", &name);
-    printf("")
+    int a, b, c;
+    a = 8;
+    b = 7;
+    c = a + b;
+    printf("%d + %d = %d", a, b, c);
+    return 0;
 }
